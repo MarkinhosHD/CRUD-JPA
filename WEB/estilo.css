@@ -1,0 +1,426 @@
+.teste{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(77, 228, 158, 0.753);
+    margin: auto;
+    transition: all 0.4s linear;
+    border-radius: 300px;
+}
+
+
+.teste .login{
+    position: absolute;
+    top: 150px;
+    margin-left: 105px;
+    transition: all 0.4s linear;
+    font-size: 25px;
+    color: #FFFFFF;    
+}
+
+.teste .login input[type="text"]{
+    border:none;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+.teste .senha{
+    position: absolute;
+    top: 245px;
+    margin-left: 105px;
+    transition: all 0.4s linear;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.teste .senha input[type="password"]{
+    border:none;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+.in{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 165px;
+    transition: all 0.4s linear;
+}
+
+.cad{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 305px;
+    transition: all 0.4s linear;
+}
+
+.in button, .cad button{
+    border: none;
+    background-color: rgba(76, 116, 189, 0.747);
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: all 0.4s linear;
+}
+
+.teste .lembrar-senha{
+    position: absolute;
+    margin-top: 445px;
+    margin-left: 145px;
+    transition: all 0.4s linear;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+.teste .lembrar-senha a{
+    text-decoration: none;
+    color: rgb(255, 239, 10);
+    font-weight: bold;
+    transition: all 0.4s linear;
+}
+
+.teste:hover{
+    background-color: rgba(73, 233, 10, 0.541);
+    border-top-left-radius: 280px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 490px;
+    border-bottom-right-radius: 280px; 
+    transition: all 0.4s linear;
+
+    .login{        
+        margin-left:65px;
+    }   
+    .senha{        
+        margin-left: 100px;
+    }
+    .in{        
+        margin-left: 190px;
+    }
+    .cad{
+        margin-left: 330px;
+    }
+    .in button, .cad button{
+        background-color: rgb(97, 165, 94);
+        cursor: pointer;        
+    }
+    .lembrar-senha{
+        margin-left: 195px;        
+    }
+    .lembrar-senha a{
+        color: #6a752d;
+    }
+
+}
+.in button:hover, .cad button:hover{
+    font-weight: bold;
+    color: #d9f05c;
+}
+
+/*-------------------- cadastro.html ----------------------------------*/
+#cadastro{
+    margin: auto;
+    background-color: rgba(255, 102, 0, 0.507);
+    width: 500px;
+    height: 600px;
+    border-radius: 100px;
+    transition: all 0.4s linear;
+}
+#cadastro .cad{
+    position: absolute;
+    color: rgb(167, 57, 231);
+    font-size: 2rem;
+    margin-top: 70px;
+    margin-left: 90px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#cadastro  .usuario{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 90px;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+#cadastro  .senha{
+    position: absolute;
+    margin-top: 220px;
+    margin-left:90px;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+#cadastro  .confirmar-senha{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 90px;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+#cadastro  .confrm-pass, .password, #cadastro  input[type="text"]{
+    border:none;
+    font-size: 25px;
+    border-radius: 7px;
+    position: absolute;
+    margin-left: 90px;
+}
+
+#cadastro  input[type="text"]{
+    margin-top:175px ;    
+}
+
+#cadastro  .password{  
+    margin-top: 245px;
+}
+
+#cadastro  .confrm-pass{
+    margin-top: 315px;   
+}
+
+#cadastro  .botoes{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 100px;
+}
+
+button {
+    border: none;    
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#cadastro  .botoes .salvar{
+    margin-left: 20px;
+    background-color: rgba(226, 157, 66, 0.815);
+    transition: all 0.4s linear;
+}
+
+#cadastro  .botoes .cancel{
+    margin-left: 30px;
+    background-color: rgba(226, 157, 66, 0.815);
+    transition: all 0.4s linear;
+}
+
+#cadastro:hover{
+    background-color: rgba(167, 57, 231, 0.795);
+    border-radius: 260px;
+    transition: all 0.4s linear;
+    .cad{
+        color:rgb(250, 131, 51);   
+    }
+    .botoes .salvar, .botoes .cancel{
+        background-color: rgba(115, 40, 158, 0.795);        
+    }
+}
+.botoes .salvar:hover, .cancel:hover{
+    font-weight: bold;
+    color:rgb(250, 131, 51); 
+    transition: all 0.4s linear;
+}
+
+/* ---------------------------------- inicial -------------------------------------- */
+
+#central{    
+    width: 100%;
+    height: 97vh;
+}
+
+#central .title {
+    text-align: center; 
+    text-shadow: 5px 5px 5px rgb(87, 84, 84);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding-top: 20px;   
+    font-size: 2.5rem;
+    color: maroon;    
+}
+
+#central .menu{
+    position: absolute;
+    width: 205px;
+    height: 212px;
+    background-color: #f8fc005e;
+    margin-left: 5%;
+    margin-top: 6.5%;
+    border-style: double;
+    border-color: #fcc100;;
+    border-radius: 50px;
+}
+
+#central .conteudo{
+    position: absolute;
+    width: 900px;
+    height: 450px;
+    background-color: rgba(107, 20, 220, 0.452);
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 50px;
+    border-color: rgb(47, 3, 104);
+    border-style: groove;
+}
+
+.menu ul{    
+    width: 100%;
+    list-style: none;
+    padding: 0%;    
+    position: absolute;
+    margin: auto;
+}
+
+.menu ul li a{      
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00ff00;  
+    font-weight: bold;  
+    font-size: 20px;
+    display: block; 
+    text-align: center;  
+    padding: 15px;    
+}
+
+.menu ul li a:hover{
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.exit{
+    position: absolute;
+    top: 450px;
+    left: 130px;    
+}
+
+.exit .sair{
+    background-color: rgb(122, 122, 122);
+    font-weight: bold;
+    
+}
+
+.conteudo .linha1{
+    margin-top: 20px;
+    
+}
+
+.conteudo .linha1, .linha2, .linha3, .linha4, .linha5, .linha6{    
+    width: 90%;
+    margin-left: 28px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.conteudo .linha1 label{
+    border-style:groove;
+    background-color: #525253d7;
+    border-radius: 10px;
+    color: #929292;
+    font-size: 20px;
+}
+
+.conteudo .linha1 .nome-comp{
+    margin-left: 50px;
+}
+
+.conteudo .linha1 input[type=text]{
+    width: 340px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.conteudo .linha2 input[type=date]{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudo .linha2 .tp_cad{
+    margin-left: 30px;
+}
+
+.conteudo .linha2 input[list]{
+    width: 277px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudo .linha3 #endereco{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.conteudo .linha3 .num, .complemento{
+    margin-left: 20px;
+}
+
+.conteudo .linha3 input[type=number]{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    width: 80px;
+}
+
+.conteudo .linha3 #comp {
+    width: 187px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.conteudo .linha4 .cidade, .estado{
+    margin-left: 20px;
+}
+
+.conteudo .linha4 input[type=text]{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    width: 255px;
+}
+
+.conteudo .linha4 #list_uf{
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.conteudo .linha5 input[type=email]{
+    width: 740px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.conteudo .linha6 .tel{
+    margin-left: 20px;
+}
+
+.conteudo .linha6 input[type=tel]{
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    width: 300px;
+}
+
+.conteudo .linha7{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.conteudo .linha7 .save, .clean{
+    background-color: #5900ff;
+    margin-left: 75px;
+}

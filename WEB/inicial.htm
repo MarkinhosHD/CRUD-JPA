@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD com JPA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="central">
+
+        <div class="title">
+            <span class="titulo">CRUD com JPA</span>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="">cadastro</a></li>
+                <li><a href="">consulta</a></li>
+                <li><a href="">alterar</a></li>
+                <li><a href="">apagar</a></li>
+            </ul>
+        </div>
+
+        <div class="conteudo">
+            <div class="linha1">
+                <span class="num-cad">Número do Cadastro</span><label> Número </label>
+                <span class="nome-comp">Nome Completo* </span><input type="text" maxlength="40">
+            </div>
+            <div class="linha2">
+                <span class="dt_nasc">Data de Nascimento </span><input type="date">
+                <span class="tp_cad">Tipo de Cadastro </span>
+            
+                <input list="lista_cad" name="cadastro" id="tp-cadastro">
+                <datalist id="lista_cad">
+                    <option value="Tipo 1">
+                    <option value="Tipo 2">
+                    <option value="Tipo 3">
+                    <option value="Tipo 4">
+                    <option value="Tipo 5">
+                </datalist>
+            </div>
+            <div class="linha3">
+                <span class="end">Endereço </span><input id="endereco" type="text">
+                <span class="num">N°</span><input type="number">
+                <span class="complemento">Complemento </span><input id="comp" type="text" >
+            </div>
+            <div class="linha4">
+                <span class="bairro">Bairro </span><input type="text">
+                <span class="cidade">Cidade </span><input type="text">
+                <span class="estado">UF</span>
+                <input list="lista_uf" name="estado" id="list_uf">
+                <datalist id="lista_uf">
+                    <option value="RJ">
+                    <option value="SC">
+                    <option value="MG">
+                    <option value="MT">
+                    <option value="SP">
+                </datalist>
+            </div>
+            <div class="linha5">
+                <span class="mail">e-mail </span><input type="email">
+            </div>
+            <div class="linha6">
+                <span class="cel">Celular </span><input type="tel">
+                <span class="tel">Residencial </span><input type="tel">
+            </div>
+            <div class="linha7">
+                <button class="save">salvar</button>
+                <button class="clean">limpar</button>
+                
+            </div>
+        </div>
+
+        <div class="exit">
+            <button onclick="window.location.href = 'index.html'" class="sair">SAIR</button>
+        </div>
+        
+    </div>
+</body>
+</html>
